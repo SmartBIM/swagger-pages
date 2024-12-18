@@ -55,9 +55,9 @@ paths:
         required: true
         schema:
           type: object
-                properties:
-                  hookId:
-                    type: string
+          properties:
+            hookId:
+              type: string
       responses:
         200:
           description: "webhook deleted"
